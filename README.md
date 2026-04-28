@@ -1,6 +1,6 @@
 # Alert Tinder
 
-> Tinder-Style Alert-Triage-Trainer für Tier-1 SOC-Analysten. Mobile-first, eine HTML-Datei, keine Abhängigkeiten.
+> Tinder-Style Alert-Triage-Trainer für SOC-Analysten. Mobile-first, eine HTML-Datei, keine Abhängigkeiten.
 
 **🎮 [Jetzt spielen →](https://hundert1.github.io/Alert-Tinder/)**
 
@@ -11,7 +11,7 @@
 
 ## Was ist das?
 
-Alert Tinder ist ein kostenloses Open-Source-Trainingstool für SOC-Tier-1-Analysten. Du swipest durch über 100 realistische Alert-Cases, entscheidest in Sekunden True Positive oder False Positive und kriegst sofort Feedback mit ausführlicher Lesson und MITRE-ATT&CK-Mapping.
+Alert Tinder ist ein kostenloses Open-Source-Trainingstool für SOC-Analysten. Du swipest durch über 100 realistische Alert-Cases, entscheidest in Sekunden True Positive oder False Positive und kriegst sofort Feedback mit ausführlicher Lesson und MITRE-ATT&CK-Mapping.
 
 Gebaut für die Art, wie Analysten wirklich lernen: in kurzen Bursts, in der Bahn, zwischen zwei Tickets. Kein Login, kein Tracking, keine Installation. Link aufmachen, swipen.
 
@@ -29,8 +29,8 @@ Gebaut für die Art, wie Analysten wirklich lernen: in kurzen Bursts, in der Bah
 
 ### Für wen ist das?
 
-- **Tier-1 SOC-Analysten** die ihre Reflexe schärfen wollen
-- **Tier-2/3 Senior-Analysten** die einen unterhaltsamen Weg zum Onboarding von Junioren suchen
+- **SOC-Analysten** die ihre Reflexe schärfen wollen
+- **Senior-Analysten** die einen unterhaltsamen Weg zum Onboarding von Junioren suchen
 - **Quereinsteiger** in der Vorbereitung auf SOC-Bewerbungsgespräche
 - **Cybersecurity-Studierende** die realistische Praxis suchen
 - **SOC-Manager** die ein niederschwelliges Trainings-Add-on wollen
