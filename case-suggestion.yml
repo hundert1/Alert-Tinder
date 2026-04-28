@@ -1,0 +1,133 @@
+name: 🆕 Neuer Case-Vorschlag
+description: Reiche einen neuen Alert-Case für den Trainer ein.
+title: "[Case] "
+labels: ["new-case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Einreichen! Bitte stell sicher, dass dein Case **realistisch, sanitized und didaktisch wertvoll** ist — siehe [CONTRIBUTING.md](https://github.com/hundert1/alert-tinder/blob/main/CONTRIBUTING.md) für Details.
+
+        ⚠️ **Sanitization ist Pflicht.** Vor dem Einreichen alle echten Firmennamen, IPs, Usernames, internen Projekte und Kundennamen durch generische Platzhalter ersetzen.
+
+  - type: input
+    id: rule
+    attributes:
+      label: Rule-Name
+      description: Wie würde diese Detection in einem SIEM heißen?
+      placeholder: z.B. "Suspicious Scheduled Task"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - critical
+        - high
+        - medium
+        - low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Korrekte Antwort
+      description: Ist das ein True Positive (eskalieren) oder False Positive (schließen)?
+      options:
+        - True Positive (eskalieren)
+        - False Positive (schließen)
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Detection-Source
+      placeholder: z.B. "Sysmon Event 1", "EDR Behavioral", "Entra ID Sign-In Logs"
+    validations:
+      required: true
+
+  - type: textarea
+    id: fields
+    attributes:
+      label: Kartenfelder
+      description: Key-Value-Paare, die der Analyst auf der Karte sieht. Format "key: value", einer pro Zeile.
+      placeholder: |
+        host: WKS-FIN-44
+        user: a.beispiel
+        process: rundll32.exe
+        cmdline: rundll32.exe shell32.dll,Control_RunDLL
+        time: Mi 09:42
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: 2-4 Sätze die die Szene aufstellen. Was sieht der Analyst, und was ist der Kontext?
+    validations:
+      required: true
+
+  - type: textarea
+    id: verdict_explanation
+    attributes:
+      label: Verdict-Erklärung
+      description: Warum ist es TP oder FP? Was macht die Antwort klar, sobald der Analyst nachdenkt?
+    validations:
+      required: true
+
+  - type: textarea
+    id: lesson
+    attributes:
+      label: Lesson
+      description: Welches verallgemeinerbare Prinzip lehrt dieser Case? Soll auf andere Situationen übertragbar sein.
+    validations:
+      required: true
+
+  - type: input
+    id: mitre
+    attributes:
+      label: MITRE-ATT&CK-Techniques
+      description: Komma-separierte Liste von Technique-IDs und Namen.
+      placeholder: z.B. "T1218.011 Rundll32, T1059.001 PowerShell"
+
+  - type: textarea
+    id: hint
+    attributes:
+      label: Hint (optional)
+      description: Eine Frage, die den Analysten in die richtige Richtung schubst, ohne die Lösung zu verraten.
+
+  - type: checkboxes
+    id: sanitization
+    attributes:
+      label: Sanitization-Checkliste
+      description: Vor dem Einreichen bestätigen.
+      options:
+        - label: Keine echten Firmennamen
+          required: true
+        - label: Keine echten IPs (RFC1918, TEST-NET oder erfundene Hosting-ASNs verwendet)
+          required: true
+        - label: Keine echten Usernames, die realen Personen entsprechen
+          required: true
+        - label: Keine echten internen Projektnamen, Kundennamen oder System-Identifier
+          required: true
+        - label: Keine echten proprietären Daten, Credentials oder Secrets
+          required: true
+
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Lizenz-Zustimmung
+      options:
+        - label: Ich stimme zu, diesen Beitrag unter CC BY-NC-SA 4.0 zu lizenzieren (siehe LICENSE-CONTENT).
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Zusätzlicher Kontext (optional)
+      description: Sonst noch was, das der Maintainer wissen sollte? Wie häufig in der Praxis? Varianten, die du gesehen hast?

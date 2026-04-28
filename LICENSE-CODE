@@ -1,0 +1,47 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+The full text of the AGPL-3.0 license is available at:
+https://www.gnu.org/licenses/agpl-3.0.txt
+
+This license applies to all source code in this repository, including but
+not limited to:
+  - HTML, CSS, JavaScript files
+  - Configuration files
+  - Build scripts and tooling
+
+Educational content (cases, glossary, lessons, hints) is licensed
+separately under CC BY-NC-SA 4.0 — see LICENSE-CONTENT.
+
+================================================================================
+
+Copyright (C) 2026 Torben Hallemann (@hundert1)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+================================================================================
+
+For the full AGPL-3.0 license text, please see:
+https://www.gnu.org/licenses/agpl-3.0.txt
+
+The full text is approximately 33KB. To include it in this repository,
+download it with:
+
+  curl -o LICENSE-CODE https://www.gnu.org/licenses/agpl-3.0.txt
+
+Or replace this stub file with the full license text before publishing.
