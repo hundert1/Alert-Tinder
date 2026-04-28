@@ -119,7 +119,7 @@ Wenn du die App kommerziell nutzen willst (z.B. als Teil eines bezahlten SOC-Tra
 
 Gemacht von **Torben Hallemann** ([@hundert1](https://github.com/hundert1)).
 
-Inspiriert von jedem Tier-1, der schon mal um 2 Uhr morgens einen Cobalt-Strike-Detect auf einem Pentest-Lab als echten Incident triagiert hat.
+Gewidmet dem kollektiven Herzinfarkt aller SOC-Analysten, die nachts aus dem Bett geklingelt werden, weil das neue Backup-Skript vom Admin exakt so aussieht wie ein massiver Datenklau.
 
 ---
 
