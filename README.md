@@ -2,7 +2,7 @@
 
 > Tinder-Style Alert-Triage-Trainer für Tier-1 SOC-Analysten. Mobile-first, eine HTML-Datei, keine Abhängigkeiten.
 
-**🎮 [Jetzt spielen →](https://hundert1.github.io/alert-tinder/)**
+**🎮 [Jetzt spielen →](https://hundert1.github.io/Alert-Tinder/)**
 
 [![License: AGPL v3](https://img.shields.io/badge/Code-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Inhalte-CC_BY--NC--SA_4.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
