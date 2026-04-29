@@ -20,7 +20,7 @@ Gebaut für die Art, wie Analysten wirklich lernen: in kurzen Bursts, in der Bah
 - **102+ realistische Alert-Cases** — Windows, Linux, macOS, Active Directory, M365, AWS, Kubernetes, Email-Security, Insider-Threats, Cloud-IAM, OT/IoT
 - **MITRE-ATT&CK-Mapping** für jeden Case
 - **260+ Glossar-Begriffe** mit kategorisiertem, durchsuchbarem Browser
-- **Mobile-first Swipe-UI** inspiriert von Dating-Apps — schnelle Entscheidungen, schnelles Feedback
+- **Mobile-first Swipe-UI** schnelle Entscheidungen, schnelles Feedback
 - **Didaktisch aufgebaut** — jede falsche Antwort kommt mit ausführlicher Erklärung
 - **Severity-Lügen** — Cases bei denen die Severity-Anzeige bewusst trügt, damit Analysten lernen, dem Score nicht blind zu vertrauen
 - **Hint-System** — begrenzte Hints pro Schicht wie ein echter Zeitbudget-Workflow
@@ -53,14 +53,14 @@ Tippe auf das (i)-Icon für die Quick Reference. Tippe auf das Archiv-Icon, um a
 
 ## Tech-Stack
 
-Eine HTML-Datei. Kein Build, kein Bundler, kein Framework, kein Backend.
+100 Prozent HTML. Kein: Build, Bundler, Framework, oder Backend.
 
 - Vanilla JavaScript
 - CSS (kein Tailwind, kein Preprocessor)
 - LocalStorage für Fortschritt (kein Server)
 - Google Fonts für die Typografie
 
-Die ganze App ist eine Datei, weil das der ehrlichste Weg ist, ein Tool dieser Größe auszuliefern. Du kannst forken, speichern, irgendwo statisch hosten.
+Die ganze App ist eine Datei.
 
 ---
 
